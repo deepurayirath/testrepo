@@ -1,4 +1,4 @@
-spackage DeepuSDET.resources;
+package DeepuSDET.resources;
 
 import org.testng.annotations.BeforeTest;
 
