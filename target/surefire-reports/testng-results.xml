@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-23T22:47:52 CDT" name="Suite" finished-at="2024-10-23T22:48:33 CDT" duration-ms="41619">
+    <groups>
+      <group name="purchase">
+        <method signature="StandaloneOrderSubmit.orderSubmit(java.util.HashMap)[pri:0, instance:DeepuSDET.tests.StandaloneOrderSubmit@5d0bf09b]" name="orderSubmit" class="DeepuSDET.tests.StandaloneOrderSubmit"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-10-23T22:47:52 CDT" name="Error Validation Test" finished-at="2024-10-23T22:47:52 CDT" duration-ms="32">
+    </test> <!-- Error Validation Test -->
+    <test started-at="2024-10-23T22:47:52 CDT" name="Order Submit Test" finished-at="2024-10-23T22:48:33 CDT" duration-ms="41619">
+      <class name="DeepuSDET.tests.StandaloneOrderSubmit">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:DeepuSDET.tests.StandaloneOrderSubmit@5d0bf09b]" started-at="2024-10-23T22:47:52 CDT" name="launchApplication" finished-at="2024-10-23T22:47:57 CDT" duration-ms="4746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderSubmit(java.util.HashMap)[pri:0, instance:DeepuSDET.tests.StandaloneOrderSubmit@5d0bf09b]" started-at="2024-10-23T22:47:57 CDT" name="orderSubmit" data-provider="getData" finished-at="2024-10-23T22:48:13 CDT" duration-ms="16034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Pa$$w0rd, product=ZARA COAT 3, email=deepu9656@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderSubmit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DeepuSDET.tests.StandaloneOrderSubmit@5d0bf09b]" started-at="2024-10-23T22:48:13 CDT" name="tearDown" finished-at="2024-10-23T22:48:13 CDT" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:DeepuSDET.tests.StandaloneOrderSubmit@5d0bf09b]" started-at="2024-10-23T22:48:13 CDT" name="launchApplication" finished-at="2024-10-23T22:48:17 CDT" duration-ms="3921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderSubmit(java.util.HashMap)[pri:0, instance:DeepuSDET.tests.StandaloneOrderSubmit@5d0bf09b]" started-at="2024-10-23T22:48:17 CDT" name="orderSubmit" data-provider="getData" finished-at="2024-10-23T22:48:33 CDT" duration-ms="16001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Pa$$w0rd, product=ADIDAS ORIGINAL, email=deepu9611@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderSubmit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DeepuSDET.tests.StandaloneOrderSubmit@5d0bf09b]" started-at="2024-10-23T22:48:33 CDT" name="tearDown" finished-at="2024-10-23T22:48:33 CDT" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DeepuSDET.tests.StandaloneOrderSubmit -->
+    </test> <!-- Order Submit Test -->
+  </suite> <!-- Suite -->
+</testng-results>

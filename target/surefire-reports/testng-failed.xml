@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="DeepuSDET.TestComponents.Listener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Error Validation Test(failed)" verbose="0">
+    <classes>
+      <class name="DeepuSDET.tests.ErrorValidationTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="LoginErrorValidation"/>
+        </methods>
+      </class> <!-- DeepuSDET.tests.ErrorValidationTest -->
+    </classes>
+  </test> <!-- Error Validation Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Order Submit Test(failed)" verbose="0">
+    <classes>
+      <class name="DeepuSDET.tests.StandaloneOrderSubmit">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="orderSubmit" invocation-numbers="1"/>
+          <include name="OrderHistoryTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- DeepuSDET.tests.StandaloneOrderSubmit -->
+    </classes>
+  </test> <!-- Order Submit Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
